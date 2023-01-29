@@ -1,0 +1,140 @@
+.nav-menu{  
+  margin:0 auto;
+  padding: 2rem;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 5fr 5fr 5fr 5fr 5fr;
+  align-items: center;
+  background-color: rgb(68, 67, 67);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  text-align: center; 
+}
+li{
+  list-style: none
+}
+a{
+  padding: 10px;
+  text-decoration: none;
+  color:rgb(240, 243, 200)
+}
+a:hover {
+	color: rgb(84, 96, 97);
+  background-color: #a0aa67;
+  box-shadow: 0px 5px 10px rgba(173, 185, 102, 0.527);
+}
+.burger-icon{
+  display: none;
+  cursor: pointer;
+}
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  background-color: rgb(240, 243, 200);
+}
+
+/*Home Page*/
+.main-wraper{
+  max-width: 1400px;
+  margin: auto;
+}
+
+/*Footer */
+.footerstyle{
+  display: grid;
+  margin: auto;
+  grid-template-columns: 6fr 6fr;
+  justify-content: center;
+  padding: 2em;
+  background-color: rgb(68, 67, 67);
+}
+footer>p{
+  color: aliceblue;
+}
+
+/*Mobile Media Query*/
+@media screen and (max-width: 690px) {
+ 
+  .burger-icon{
+    display: block;
+  }
+  .nav-menu{
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    grid-template-columns: 2fr;    
+    background-color: rgb(68, 67, 67);
+    text-align: center;
+  }
+  .nav-item{
+    margin: 16px;
+  }
+}
+
+/*Contact page*/
+#contact-header{
+  max-width: 1400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr;
+  overflow: hidden;
+}
+
+.contact-wraper{
+  max-width: 1400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  overflow: hidden;
+}
+
+
+/*Contact Form*/
+form {
+   max-width: 600px;
+   text-align: center;
+   margin: 20px auto;
+   display: grid;
+   grid-template-columns: auto;
+   grid-gap: 10px;
+   
+}
+input textarea {
+  width: 400px;
+  border:0; 
+  outline:0;
+  padding: 1em;
+  border-radius:(15px);
+  display: block;
+  margin-top: 1em;
+  font-family: 'Merriweather', sans-serif;
+  resize: none;
+}
+.input-submit {
+  width: 400px;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  color: white; 
+  background: rgb(73, 73, 73);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-submit:hover {
+  background-color: #a0aa67;
+  box-shadow: 0px 5px 10px rgba(173, 185, 102, 0.527);
+  transform: translateY(-7px);
+}
+  
+textarea {
+  height: 126px;
+}
+.contact-form {
+  float: center;
+  margin-bottom: 1em;
+}
