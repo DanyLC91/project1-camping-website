@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
 body{
   margin: 0;
   background-color: white;
@@ -18,12 +20,12 @@ body{
 li{
   list-style: none
 }
-a{
+li>a{
   padding: 10px;
   text-decoration: none;
   color:rgb(240, 243, 200)
 }
-a:hover {
+li>a:hover {
 	color: rgb(84, 96, 97);
   background-color: #a0aa67;
   box-shadow: 0px 5px 10px rgba(173, 185, 102, 0.527);
@@ -47,45 +49,55 @@ a:hover {
 }
 
 /*Home Page*/
+#phrase{
+  max-width: 1000px;
+  margin: auto;
+  font-size: xx-large;
+  color: #494945;
+  font-family: 'Bad Script', cursive;
+ 
+}
 .main-wraper{
   max-width: 1400px;
   margin: auto;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
   overflow: hidden;
 }
 .main-a{
   display: grid;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr;
   overflow: hidden;
+  justify-content: auto;
 }
 .main-b{
   display: grid;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr;
   overflow: hidden;
-  justify-items: center;
+  justify-content: auto;
 }
 
 /*Footer */
 .footerstyle{
   display: grid;
   margin: auto;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: 1fr 1fr;
   align-content: center;
+  justify-content: auto;
   padding: 2em;
   background-color: rgb(68, 67, 67);
 }
-footer>p{
+footer p{
   color: aliceblue;
 }
-.social{
+.social>a{
   font-size: 50px;
   color: rgb(240, 243, 200);
   justify-items: center;
-  padding-inline: 20%;
+  padding: 10px;
   cursor: pointer;
 }
-.social :hover{
+.social>a :hover{
   color: rgb(84, 96, 97);
   background-color: #a0aa67;
   box-shadow: 0px 5px 10px rgba(173, 185, 102, 0.527);
@@ -95,22 +107,75 @@ footer>p{
 @media screen and (max-width: 690px) {
  
   .burger-icon{
+    margin: 0;
     display: block;
+    cursor: pointer;
+    font-size: 2.6rem;
+    background-color: rgb(68, 67, 67);
   }
   .nav-menu{
-    position: fixed;
+    position: absolute;
     left: -100%;
-    top: 70px;
+    top: 24px;
     gap: 0;
     grid-template-columns: 1fr;    
     background-color: rgb(68, 67, 67);
     text-align: center;
   }
   .nav-item{
-    margin: 16px;
+    margin: 100%;
   }
 }
 
+/*Accommodation page*/
+.tent1{
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr 2fr;
+  overflow: hidden;
+}
+.tent2{
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr 2fr;
+  overflow: hidden;
+  background-color: rgb(207, 201, 116);
+}
+.tent3{
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr 2fr;
+  overflow: hidden;
+}
+#tent-pics{
+  max-width: 450px;
+  max-height: 450px;
+}
+.fa-solid{
+  font-size: 30px;
+  background-color: rgb(170, 170, 170);
+  color: #292929;
+}
+#book{
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  color: white; 
+  background: rgb(194, 84, 10);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#book:hover {
+  background-color: #db632b;
+  box-shadow: 0px 5px 10px rgba(216, 117, 3, 0.568);
+  transform: translateY(-7px);
+}
 
 /*Contact page*/
 #contact-header{
