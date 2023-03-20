@@ -4,6 +4,7 @@ body{
   margin: 0; 
   padding: 0;
   background-color: white;
+  min-height: 100vh;
 }
 /*Navbar*/
 .nav-menu{  
@@ -68,36 +69,6 @@ li>a:hover {
   margin: 5%;
   overflow: hidden;
 }
-
-
-/*Footer */
-.footerstyle{
-  display: grid;
-  margin: auto;
-  grid-template-columns: 1fr 1fr;
-  align-content: center;
-  justify-content: auto;
-  padding: 2em;
-  background-color: rgb(68, 67, 67);
-}
-footer p{
-  color: aliceblue;
-}
-.social>a{
-  font-size: 50px;
-  color: rgb(240, 243, 200);
-  justify-items: center;
-  padding: 10px;
-  cursor: pointer;
-}
-.social>a :hover{
-  color: rgb(84, 96, 97);
-  background-color: #a0aa67;
-  box-shadow: 0px 5px 10px rgba(173, 185, 102, 0.527);
-}
-
-
-
 /*Accommodation page*/
 .tent1{
   float: left;
@@ -129,10 +100,20 @@ footer p{
   max-height: 600px;
   overflow: hidden;
 }
+#tent-gallery{
+  max-width: 300px;
+  max-height: 200px;
+  float: left;
+  columns: 4; 
+}
 .fa-solid{
-  font-size: 30px;
-  background-color: rgb(170, 170, 170);
+  font-size: 30px; 
   color: #292929;
+  
+}
+#description{
+  float: left;
+  columns: 4;
 }
 #book{
   width: 100px;
@@ -215,6 +196,34 @@ textarea {
 .contact-form {
   float: center;
   margin-bottom: 1em;
+}
+
+/*Footer */
+.footerstyle{
+  
+  display: grid;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  justify-content: auto;
+  padding: 2em;
+  background-color: rgb(68, 67, 67);
+}
+footer p{
+  margin-top: auto;
+  color: aliceblue;
+}
+.social>a{
+  font-size: 50px;
+  color: rgb(240, 243, 200);
+  justify-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+.social>a :hover{
+  color: rgb(84, 96, 97);
+  background-color: #a0aa67;
+  box-shadow: 0px 5px 10px rgba(173, 185, 102, 0.527);
 }
 
 /*Mobile/Tablet Media Query*/
