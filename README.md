@@ -1,108 +1,103 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Hillview Forest - Project 1
 
-Welcome DanyLC91,
+[Hillview Forest Website](https://danylc91.github.io/project1-camping-website/index.html)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## About:
 
-## Gitpod Reminders
+Hillview Forest website, its Front End project. Created to emulate what a real life website for a business could be, from a full stack student perspective.
+Although Hillview Forest its a fictional business, the goal of this project, is to creat an interactive website, that provides useful information and promote a the brand, targeting  possible new customers.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+## Characteristics:
 
-Another blue button should appear to click: _Open Browser_.
+The website is divided in 4 pages. With a head banner, a main manu, and a footer position equally.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+### Landing Page
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The main/home page provides the institution ethos and brief explanation of why should costumers buy their product.
+It also contains info of the policies.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Accommodation
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The tents page display images with full description of the cabins available to rent.
 
-------
 
-## Release History
+### Usefull Info
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The Useful information contains opening times, a map with the location of the business, and instructions with how to get there.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Contact
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+The Contact page provides the costumers the all ways of contact available, plus a formulary for the business to contact them.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Footer
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+The footer contains icons with links to relevant social media websites.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### The root
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+This project contains four .html pages. CSS .stylessheet was used. All media is hosted in different folders and classified accordingly. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Accessibility tags were placed 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+This project was designed with adaptability for PC, Tablet and Mobile.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Source
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+*Map: from google maps
+*Icons: from  fontawesone
+*Images: Pexel
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Frameworks - Libraries - Programs Used
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Google Fonts 
+Font Awesome:
+Font Awesome are used as an icons for user UX purposes.
+Git
+Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+GitHub:
+GitHub is used to store the project's code after being pushed from Git.
+PIXLR:
+PIXLR was used to create, modify and resize all images on this website.
+Canva
+Canva was used to creat the image logo, favicon and also the office image.
+Testing
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+W3C Markup Validator - Website Results
+W3C CSS Validator - Website Results.
+Google Lighthouse was used to test Performance, Best Practices, Accessibility and SEO on both Desktop and Mobile devices.
 
-------
+The testing was done using the Google Chrome Browser. Chrome Developer Tools was used extensively.
 
-## FAQ about the uptime script
+## Functionality
 
-**Why have you added this script?**
+All links have been hovered and clicked to ensure accessibility.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+Pages all load correctly on all device screen sizes.
 
-**How will this affect me?**
+All social media links work correctly and open on a new tab.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+All images load on each page as intended.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+All the buttons are working correctly and bring the users to the function that they were built for.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Website Development Issues
 
-**So….?**
+Hamburger Menu issues, and problems using Git. Solve thanks to my mentor's help.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## Credits
 
-**Can I opt out?**
+W3Schools.
+[ Hamburger Menu](https://codepen.io/erikterwan/pen/EVzeRP)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+Stack Overflow.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+Content
+All the text content is original. The quote in the footer is from Kahli Gibran.
