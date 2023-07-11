@@ -95,7 +95,7 @@ li>a:hover {
   margin-right: 5%;
   overflow: hidden;
 }
-#tent-pics{
+.tent-pics{
   max-width: 600px;
   max-height: 600px;
   overflow: hidden;
