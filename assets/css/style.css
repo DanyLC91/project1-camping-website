@@ -166,7 +166,6 @@ input textarea {
   border:0; 
   outline:0;
   padding: 1em;
-  border-radius:(15px);
   display: block;
   margin-top: 1em;
   font-family: 'Merriweather', sans-serif;
@@ -194,7 +193,7 @@ textarea {
   height: 126px;
 }
 .contact-form {
-  float: center;
+  float: left;
   margin-bottom: 1em;
 }
 /*404 and Thank you*/
@@ -211,7 +210,7 @@ textarea {
   margin: auto;
   grid-template-columns: 1fr 1fr;
   align-content: center;
-  justify-content: auto;
+  justify-content: center;
   padding: 2em;
   background-color: rgb(68, 67, 67);
 }
