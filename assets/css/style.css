@@ -30,7 +30,7 @@ li>a{
 li>a:hover {
 	color: rgb(84, 96, 97);
   background-color: #a0aa67;
-  box-shadow: 0px 5px 10px rgba(173, 185, 102, 0.527);
+  box-shadow: 0 5px 10px rgba(173, 185, 102, 0.527);
 }
 .burger-icon{
   display: none;
@@ -46,11 +46,11 @@ li>a:hover {
 
 #header-desktop{
   width: 100%;
-  margin: 0%;
+  margin: 0;
 }
 #header-mobile{
   width: 100%;
-  margin: 0%;
+  margin: 0;
 }
 
 /*Home Page*/
@@ -95,12 +95,12 @@ li>a:hover {
   margin-right: 5%;
   overflow: hidden;
 }
-.tent-pics{
+#tent-pics{
   max-width: 600px;
   max-height: 600px;
   overflow: hidden;
 }
-.tent-gallery{
+#tent-gallery{
   max-width: 300px;
   max-height: 200px;
   float: left;
@@ -111,11 +111,11 @@ li>a:hover {
   color: #292929;
   
 }
-.description{
+#description{
   float: left;
   columns: 4;
 }
-.button-link{
+#book{
   width: 100px;
   height: 50px;
   border: none;
@@ -127,9 +127,9 @@ li>a:hover {
   align-items: center;
   justify-content: center;
 }
-.button-link:hover {
+#book:hover {
   background-color: #db632b;
-  box-shadow: 0px 5px 10px rgba(216, 117, 3, 0.568);
+  box-shadow: 0 5px 10px rgba(216, 117, 3, 0.568);
   transform: translateY(-7px);
 }
 
@@ -186,7 +186,7 @@ input textarea {
 }
 .input-submit:hover {
   background-color: #a0aa67;
-  box-shadow: 0px 5px 10px rgba(173, 185, 102, 0.527);
+  box-shadow: 0 5px 10px rgba(173, 185, 102, 0.527);
   transform: translateY(-7px);
 }
   
@@ -229,7 +229,7 @@ footer p{
 .social>a :hover{
   color: rgb(84, 96, 97);
   background-color: #a0aa67;
-  box-shadow: 0px 5px 10px rgba(173, 185, 102, 0.527);
+  box-shadow: 0 5px 10px rgba(173, 185, 102, 0.527);
 }
 
 /*Mobile/Tablet Media Query*/
@@ -265,7 +265,7 @@ footer p{
   #menuToggle a:hover  {
   color: rgb(84, 96, 97);
   background-color: #a0aa67;
-  box-shadow: 0px 5px 10px rgba(173, 185, 102, 0.527);
+  box-shadow: 0 5px 10px rgba(173, 185, 102, 0.527);
   } 
   #menuToggle input{
     display: block;
@@ -289,16 +289,16 @@ footer p{
     background: rgb(240, 243, 200);
     border-radius: 3px;
     z-index: 1;    
-    transform-origin: 4px 0px;    
+    transform-origin: 4px 0;    
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                 background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                 opacity 0.55s ease;
   }  
   #menuToggle span:first-child{
-    transform-origin: 0% 0%;
+    transform-origin: 0 0;
   }  
   #menuToggle span:nth-last-child(2){
-    transform-origin: 0% 100%;
+    transform-origin: 0 100%;
   }
   #menuToggle input:checked ~ span{
     opacity: 1;
@@ -323,7 +323,7 @@ footer p{
     background-color: rgb(68, 67, 67);
     list-style-type: none;
     -webkit-font-smoothing: antialiased;   
-    transform-origin: 0% 0%;
+    transform-origin: 0 0;
     transform: translate(-100%, 0);    
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
     display: table-row;
