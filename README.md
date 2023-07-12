@@ -1,6 +1,6 @@
 # Hillview Forest - Project 1
 
-![Hillview Forest Website](https://danylc91.github.io/project1-camping-website/index.html)
+[Hillview Forest Website](https://danylc91.github.io/project1-camping-website/index.html)
 
 ## About
 
@@ -80,8 +80,8 @@ This project was designed with adaptability for PC, Tablet and Mobile.
 - Google Lighthouse: Google Lighthouse was used to test the website's performance, best practices, accessibility, and SEO on both desktop and mobile devices.
 
 ![Validator](assets/media/images/readme/w3-validator.jpg)
-![Desktop-Performance](assets/media/images/readme/w3-validator.jpg)
-![Mobile-Performance](assets/media/images/readme/w3-validator.jpg)
+![Desktop-Performance](assets/media/images/readme/desktop-performance.jpg)
+![Mobile-Performance](assets/media/images/readme/mobile-landing.jpg)
 
 ## Functionality
 
