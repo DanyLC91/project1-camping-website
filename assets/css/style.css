@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 
+/* Set the basic styling for the body */
 body{
   margin: 0; 
   padding: 0;
@@ -7,6 +8,7 @@ body{
   min-height: 100vh;
 }
 /*Navbar*/
+/* Style the navigation menu */
 .nav-menu{  
   margin: 0;
   padding: 2rem;
@@ -19,23 +21,28 @@ body{
   font-size: x-large;
   text-align: center;
 }
+/* Style the list items in the navigation menu */
 li{
   list-style: none
 }
+/* Style the links in the navigation menu */
 li>a{
   padding: 10px;
   text-decoration: none;
   color:rgb(240, 243, 200)
 }
+/* Style the links in the navigation menu on hover */
 li>a:hover {
 	color: rgb(84, 96, 97);
   background-color: #a0aa67;
   box-shadow: 0 5px 10px rgba(173, 185, 102, 0.527);
 }
+/* Style the hamburger icon for mobile navigation */
 .burger-icon{
   display: none;
   cursor: pointer;
 }
+/* Style the bars of the hamburger icon */
 .bar{
   display: block;
   width: 25px;
@@ -44,16 +51,19 @@ li>a:hover {
   background-color: rgb(240, 243, 200);
 }
 
+/* Style the desktop header */
 #header-desktop{
   width: 100%;
   margin: 0;
 }
+/* Style the mobile header */
 #header-mobile{
   width: 100%;
   margin: 0;
 }
 
 /*Home Page*/
+/* Style the phrase on the home page */
 #phrase{
   max-width: 1000px;
   margin: auto;
@@ -62,6 +72,7 @@ li>a:hover {
   font-family: 'Bad Script', cursive;
  
 }
+/* Style the main wrapper on the home page */
 .main-wraper{
   float: inline-start;
   max-width: 100%;
@@ -70,6 +81,7 @@ li>a:hover {
   overflow: hidden;
 }
 /*Accommodation page*/
+/* Style the first tent on the accommodation page */
 .tent1{
   float: left;
   max-width: 100%;
@@ -78,6 +90,7 @@ li>a:hover {
   margin-right: 5%;
   overflow: hidden;
 }
+/* Style the second tent on the accommodation page */
 .tent2{
   margin: 0;
   margin-right: 0;
@@ -87,6 +100,7 @@ li>a:hover {
   overflow: hidden;
   background-color: rgb(207, 201, 116);
 }
+/* Style the third tent on the accommodation page */
 .tent3{
   float: left;
   max-width: 100%;
@@ -95,26 +109,31 @@ li>a:hover {
   margin-right: 5%;
   overflow: hidden;
 }
+/* Style the tent main pictures */
 .tent-pics{
   max-width: 600px;
   max-height: 600px;
   overflow: hidden;
 }
+/* Style the tent gallery */
 .tent-gallery{
   max-width: 300px;
   max-height: 200px;
   float: left;
   columns: 4; 
 }
+/* Style the features icons */
 .fa-solid{
   font-size: 30px; 
   color: #292929;
   
 }
+/* Style the description on the accommodation page */
 .description{
   float: left;
   columns: 4;
 }
+/* Style the booking link button */
 .button-link{
   width: 100px;
   height: 50px;
@@ -127,6 +146,7 @@ li>a:hover {
   align-items: center;
   justify-content: center;
 }
+/* Style the booking link button on hover */
 .button-link:hover {
   background-color: #db632b;
   box-shadow: 0 5px 10px rgba(216, 117, 3, 0.568);
@@ -134,6 +154,7 @@ li>a:hover {
 }
 
 /*Contact page*/
+/* Style the contact page title */
 #contact-header{
   max-width: 1400px;
   margin: auto;
@@ -141,7 +162,7 @@ li>a:hover {
   grid-template-columns: 2fr;
   overflow: hidden;
 }
-
+/* Style the contact page wrapper */
 .contact-wraper{
   max-width: 1400px;
   margin: auto;
@@ -152,6 +173,7 @@ li>a:hover {
 
 
 /*Contact Form*/
+/* Style the contact form */
 form {
    max-width: 600px;
    text-align: center;
@@ -161,6 +183,7 @@ form {
    grid-gap: 10px;
    
 }
+/* Style the input and textarea fields in the contact form */
 input textarea {
   width: 400px;
   border:0; 
@@ -171,6 +194,7 @@ input textarea {
   font-family: 'Merriweather', sans-serif;
   resize: none;
 }
+/* Style the submit button in the contact form */
 .input-submit {
   width: 400px;
   height: 40px;
@@ -183,15 +207,17 @@ input textarea {
   align-items: center;
   justify-content: center;
 }
+/* Style the submit button on hover */
 .input-submit:hover {
   background-color: #a0aa67;
   box-shadow: 0 5px 10px rgba(173, 185, 102, 0.527);
   transform: translateY(-7px);
 }
-  
+/* Style the textarea field in the contact form */
 textarea {
   height: 126px;
 }
+/* Style the contact form container */
 .contact-form {
   float: left;
   margin-bottom: 1em;
@@ -204,6 +230,7 @@ textarea {
 
 }
 /*Footer */
+/* Style the footer */
 .footerstyle{
   
   display: grid;
@@ -214,10 +241,12 @@ textarea {
   padding: 2em;
   background-color: rgb(68, 67, 67);
 }
+/* Style the paragraphs in the footer */
 footer p{
   margin-top: auto;
   color: aliceblue;
 }
+/* Style the social media icons in the footer */
 .social>a{
   font-size: 50px;
   color: rgb(240, 243, 200);
@@ -225,6 +254,7 @@ footer p{
   padding: 10px;
   cursor: pointer;
 }
+/* Style the social media icons on hover */
 .social>a :hover{
   color: rgb(84, 96, 97);
   background-color: #a0aa67;
@@ -234,19 +264,23 @@ footer p{
 /*Mobile/Tablet Media Query*/
 @media screen and (min-width: 780px) {
 
+  /* Hide the mobile navigation checkbox */
   #checkbox{
     display:none;
   } 
+  /* Hide the mobile header */
   #header-mobile{
     display: none;
   }
 }
 @media screen and (max-width: 780px) {
 
+  /* Style the menu wrapper for mobile */
   #menu-wrapper{
     background-color: rgb(68, 67, 67);
     padding: 10px;
   }
+  /* Style the menu toggle for mobile */
   #menuToggle{
     display: block;
     position: relative;
@@ -256,16 +290,19 @@ footer p{
     -webkit-user-select: none;
     user-select: none;
   }  
+  /* Style the menu toggle links for mobile */
   #menuToggle a{
     text-decoration: none;
     color: rgb(240, 243, 200);    
     transition: color 0.3s ease;
   }  
+  /* Style the menu toggle links on hover for mobile */
   #menuToggle a:hover  {
   color: rgb(84, 96, 97);
   background-color: #a0aa67;
   box-shadow: 0 5px 10px rgba(173, 185, 102, 0.527);
   } 
+  /* Style the menu toggle input for mobile */
   #menuToggle input{
     display: block;
     width: 40px;
@@ -279,6 +316,7 @@ footer p{
     -webkit-touch-callout: none;
    
   }
+  /* Style the menu toggle bars for mobile */
   #menuToggle span{
     display: block;
     width: 33px;
@@ -293,24 +331,30 @@ footer p{
                 background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                 opacity 0.55s ease;
   }  
+  /* Style the first bar of the menu toggle for mobile */
   #menuToggle span:first-child{
     transform-origin: 0 0;
   }  
+  /* Style the second-to-last bar of the menu toggle for mobile */
   #menuToggle span:nth-last-child(2){
     transform-origin: 0 100%;
   }
+  /* Apply the rotation and background changes to the menu toggle bars when checked */
   #menuToggle input:checked ~ span{
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
     background: rgb(240, 243, 200);
   }
+  /* Apply the opacity and rotation changes to the second-to-last bar when checked */
   #menuToggle input:checked ~ span:nth-last-child(3){
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
   }
+  /* Apply the rotation changes to the last bar when checked */
   #menuToggle input:checked ~ span:nth-last-child(2){
     transform: rotate(-45deg) translate(0, -1px);
   }
+  /* Style the navigation menu for mobile */
   .nav-menu{
     position: fixed;
     max-width: 100%;
@@ -327,18 +371,22 @@ footer p{
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
     display: table-row;
   }  
+  /* Style the list items in the mobile navigation menu */
   .nav-menu li{
     padding: 10px 0;
     font-size: 22px;
     align-items: center;
   }
+  /* Show the navigation menu when the input is checked */
   #menuToggle input:checked ~ ul{
     transform: none;
   }
+  /* Hide the desktop header on mobile */
   #header-desktop{
     display: none;
   }
 /*Home Page*/
+/*Style the phrase on home page */
 #phrase{
     font-size: xx-large;
     padding: 10%;
@@ -354,10 +402,12 @@ footer p{
 
 @media screen  and (max-width: 1200px) {
 
+  /* Adjust the maximum width of the phrase on the home page */
   #phrase{
     max-width: 500px;
 }
 /*Accommodation page*/
+/* Adjust the layout for the first tent on the accommodation page */
 .tent1{
   float: inline-start;
   max-width: 100%;
@@ -365,6 +415,7 @@ footer p{
   margin: 5%;
   overflow: hidden;
 }
+/* Adjust the layout for the second tent on the accommodation page */
 .tent2{
   float: inline-start;
   max-width: 100%;
@@ -372,6 +423,7 @@ footer p{
   margin: 0;
   overflow: hidden;
 }
+/* Adjust the layout for the third tent on the accommodation page */
 .tent3{
   float: inline-start;
   max-width: 100%;
@@ -380,6 +432,7 @@ footer p{
   overflow: hidden;
 }
 /*Contact Page*/
+/* Adjust the layout for the contact page wrapper */
 .contact-wraper{
   max-width: 95%;
   margin: auto;
@@ -387,6 +440,7 @@ footer p{
   grid-template-columns: 1fr;
   overflow: hidden;
 }
+/* Adjust the maximum width of the submit button in the contact form */
 .input-submit {
   max-width: 280px;
   height: 40px;
