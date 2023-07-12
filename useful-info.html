@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+   <!-- Document metadata -->
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=, initial-scale=1.0">
+   <!-- External CSS files -->
    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
    <link href="assets/font-awesome/css/all.min.css" rel="stylesheet">
+   <!-- Document title and favicon -->
    <title>Hillview Forest</title>
    <link rel="icon" type="image/png" href="assets/media/images/favicon-logo.png">
-</head>
+ </head>
 
 <body>
-
+   <!-- Header section with the website title and navigation menu -->
    <header>
       <h1 style="text-align:center; display: none;">Hillview Forest</h1>
 
       <nav>
+         <!-- Container for the navigation menu -->
          <div id="menu-wrapper">
             <div id="menuToggle">
+               <!-- Checkbox for mobile menu toggle -->
                <input type="checkbox" id="checkbox">
                   <span></span>
                   <span></span>
                   <span></span>
+               <!-- Unordered list for the navigation links -->
                <ul class="nav-menu">
                   <li >
                      <a href="index.html" aria-label="Go to the top of the page">Home</a>
@@ -41,13 +46,17 @@
          </div>
       </nav> 
       <div>
+         <!-- Website banner for desktop view -->
          <img id="header-desktop" src="assets/media/images/banner-desktop.png" alt="Hillview Forest Banner">
+         <!-- Website banner for mobile view -->
          <img id="header-mobile" src="assets/media/images/banner-mobile.png" alt="Hillview Forest Banner">
       </div>
    </header>
 
+  <!-- Main content section -->
   <main>
       <div>
+         <!-- Section for Opening Times -->
          <section>
             <h2>Opening Times</h2>
             <p><strong>Open Hours</strong><br>8:00 am - 20:00 pm</p>
@@ -55,10 +64,12 @@
             <p><strong>Winter Hours</strong></p>  
             <i style="color: red;"><strong>The camp is only open from Thursdays to Sundays between November and April</strong></i>
          </section>
+         <!-- Section for How to get here -->
          <section>
             <h2>How to get here.</h2>
             <br>
             <div id="map-wrapper">
+               <!-- Google Maps embedded iframe -->
                <iframe id="map"
                 src="https://maps.google.com/maps?width=700&amp;height=300&amp;hl=en&amp;q=ireland&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                 style= " width: 99%; height: 300px;">
@@ -68,10 +79,12 @@
       </div>
    </main>
 
-   <footer class="footerstyle">
-      <div>
-         <p>All campers must be +18</p>
-      </div>
+  <!-- Footer section -->
+  <footer class="footerstyle">
+   <div>
+      <p>All campers must be +18</p>
+   </div>
+   <!-- Social media links -->
       <div class="social">
          <a href="https://www.instagram.com/" aria-label="Instagram Link" target="_blank" rel="noopener" title="Instagram"><i class="fa-brands fa-instagram" ></i></a>
          <a href="https://www.facebook.com/" aria-label="Facebook Link" target="_blank" rel="noopener" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
