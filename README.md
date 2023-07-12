@@ -81,7 +81,7 @@ This project was designed with adaptability for PC, Tablet and Mobile.
 
 ![Validator](assets/media/images/readme/w3-validator.jpg)
 ![Desktop-Performance](assets/media/images/readme/desktop-performance.jpg)
-![Mobile-Performance](assets/media/images/readme/mobile-landing.jpg)
+![Mobile-Performance](assets/media/images/readme/mobile-performance.jpg)
 
 ## Functionality
 
